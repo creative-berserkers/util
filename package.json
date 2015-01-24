@@ -1,0 +1,36 @@
+{
+  "name": "cb-util",
+  "version": "0.0.1",
+  "description": "some helpful tools",
+  "main": "lib/util.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0",
+    "chai": "^1.10.0",
+    "chai-spies": "^0.5.1"
+  },
+  "scripts": {
+    "test": "test/testutil.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/creative-berserkers/util.git"
+  },
+  "keywords": [
+    "util"
+  ],
+  "engines" : { 
+    "node" : ">=0.10.0" 
+  },
+  "author": "Odrinwhite",
+  "license": "http://unlicense.org",
+  "bugs": {
+    "url": "https://github.com/creative-berserkers/util/issues"
+  },
+  "homepage": "https://github.com/creative-berserkers/util"
+}
